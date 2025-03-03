@@ -1,0 +1,123 @@
+.navbar-custom {
+    background-color: #000000;
+    padding: 20px; 
+}
+
+.navbar-inner {
+    background-color: #ede2e2; 
+    padding: 15px 40px; 
+    border-radius: 10px;
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: slideIn 1s ease-in-out; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #a02d26 !important;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 50px; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+.nav-link:hover {
+    color: #d2691e !important; 
+}
+
+.btn-signup {
+    background-color: #030303; 
+    color: #fbfbfb; 
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    animation: slideIn 1.5s ease-in-out; 
+    
+}
+
+.btn-signup:hover {
+    background-color: #797669;
+}
+
+.search-bar {
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.search-bar input {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.faq-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.footer {
+    background-color: #000000;
+    padding: 75px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.footer .newsletter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.footer input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+.footer .btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.footer .social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.footer .social-icons a {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0 10px;
+}
+.footer .divider {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid white;
+}
